@@ -1,0 +1,324 @@
+
+
+/* add employee css */
+/* General Container Styles */
+.add-employee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 15vw;
+    width: 80vw;
+    height: 100vh;
+}
+
+/* Main Content Styles */
+.add-employee-main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(80vw, 900px);
+    margin-right: 12vw;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Improved box shadow */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Employee Box Styles */
+.add-employee-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px; /* Increased padding */
+    width: auto;
+}
+
+/* Input Styles */
+.add-employee-box #inpt {
+    padding: 15px;
+    margin-top: 20px; /* Increased margin */
+    outline: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #d5f3c7; /* Light gray background */
+    font-size: 1.6rem;
+    color: #000000; /* Dark text color */
+}
+
+/* Additional Styling */
+.add-employee-box>* {
+    margin-top: 20px; /* Increased spacing between elements */
+}
+
+/* Hover Effect */
+.add-employee:hover {
+    transform: translateY(-5px); /* Lift up on hover */
+}
+
+
+
+
+
+
+
+
+
+/* all employee jsx css */
+
+
+
+/* General Container Styles */
+.all-employee-container {
+    position: fixed;
+    top: 12%;
+    right: 100px;
+    left: 12vw;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    overflow: hidden; /* Hide overflow content */
+}
+
+/* Table Styles */
+.all-employee-container table {
+    width: 100%;
+    max-width: 90%;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.all-employee-container th,
+.all-employee-container td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    color: #fff; /* Text color set to white */
+}
+
+.all-employee-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #000; /* Adjusted header text color */
+}
+
+.all-employee-container td {
+    font-size: 1rem;
+}
+
+/* Button Styles */
+.table-btn {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 20px; /* Added margin to separate from the table */
+}
+
+.table-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+
+
+
+
+
+
+
+            /* add task css */
+
+
+/* General Container Styles */
+
+.add-task-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 10vh;
+    right: 12%;
+    left: 12%;
+    width: 76%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    z-index: 999;
+}
+
+/* Main Content Styles */
+.add-task-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+}
+
+
+/* Task Input Styles */
+.add-task-box input[type="text"],
+#select {
+    padding: 15px;
+    margin: 0.5rem 0;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%; /* Increased width for input fields */
+    max-width: 500px; /* Maximum width for responsiveness */
+    background-color: #fff;
+    transition: box-shadow 0.3s ease-in-out;
+    font-size: 1.6rem; /* Increased font size */
+    color: #333;
+}
+
+/* Button Styles */
+#addtask-btn {
+    margin-top: 2rem;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem; /* Increased font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#addtask-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+                  /* all task css */
+
+
+
+
+
+/* General Container Styles */
+
+.all-task-container {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    left: 12vw;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Apply blur effect to background */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    overflow: hidden; /* Hide scrollbar */
+}
+
+/* Table Styles */
+.all-task-container table {
+    width: 90%;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.all-task-container th,
+.all-task-container td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-family: Arial, sans-serif; /* Use a more common font */
+}
+
+.all-task-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.all-task-container td {
+    font-size: 1rem;
+}
+
+/* Button Styles */
+.table-btn-container {
+    margin-top: 20px;
+}
+
+.table-btn {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.table-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+
+
+                /* code for emlpoyee task update */
+
+ #select-x{
+
+    width:20vw ;
+    height: 40px;
+    background-color: #d8d4d4;
+    font-size: 1.8rem;
+
+ }               
+
+ .download-button-container {
+    text-align: center; 
+    margin-top: 20px; 
+  }
+  
+  .download-button-container button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+  }
+  
+  .download-button-container button:hover {
+    background-color: #45a049; 
+  }
+  

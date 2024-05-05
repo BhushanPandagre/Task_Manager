@@ -1,0 +1,212 @@
+
+
+/* add employee css */
+.add-employee-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+        position: fixed;
+        right: 0;
+        left: 15vw;
+        width: 80vw;
+        height: 100vh;
+    }
+    
+    .add-employee-main{
+    
+    
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: min(80vw, 700px );
+        margin-right: 12vw;
+        box-shadow: .5px .5px 20px .05px black;
+       
+    
+    
+    
+    }
+    
+    .add-employee-box{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: auto;
+        
+    
+    }
+    
+    .add-employee-box>*{
+    
+    margin-top: 2rem;
+    
+    
+    }
+    
+    .add-employee-box div input{
+    
+        padding: 1.4rem 1rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        outline: none;
+        border-radius: 4px;
+        width: 100%;
+        background-color: #dedddd;
+        transition: all .5s ease-in-out;
+        font-size: 2rem;
+        color: rgb(15, 15, 15);
+    
+    
+    }
+    .add-employee{
+        transition: all .5s ease-in-out;
+    }
+    .add-employee:hover{
+    
+    transform: translateY(-5px);
+    
+        
+    }
+    
+    
+    
+    
+    
+    
+    /* all employee jsx css */
+    
+    
+    .all-employee-container{
+    
+        position: fixed;
+        right: 0;
+        left: 20vw;
+        width: 80vw;
+        height: 80vh;
+        margin-top: 100px;
+    
+    }
+    
+    .all-employee-container table{
+    
+        margin-left: 2vw;
+    }
+    .all-employee-container table tr th h1{
+    
+        font-weight: 600;
+    
+    }
+    .all-employee-container table{
+        border: 2px solid black;
+    }
+    .all-employee-container table th, td{
+        border: 2px solid black;
+        padding: 1.5rem 5rem;
+    }
+    
+    
+    
+    
+    
+                /* add task css */
+    
+    
+    .add-task-container{
+    
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    
+        position: fixed;
+        right: 0;
+        left: 15vw;
+        width: 80vw;
+        height: 100vh;
+    
+    }
+    
+    .add-task-main{
+    
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: min(80vw, 700px );
+        margin-right: 12vw;
+        margin-top: 10rem;
+        box-shadow: .5px .5px 20px .05px black;
+       
+    
+    }
+    
+    .add-task-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: auto;
+        height: auto;
+    
+    
+    }
+    .add-task-box div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .add-task-box div p{
+        font-size: 1.7rem;
+        margin-top: 1rem;
+    }
+    
+    .add-task-box div input{
+        padding: 1.4rem 1rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        outline: none;
+        border-radius: 4px;
+        width: 100%;
+        background-color: #dedddd;
+        transition: all .5s ease-in-out;
+        font-size: 2rem;
+        color: rgb(15, 15, 15);
+    
+    }
+    
+    #select option{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+    }
+    
+    #select{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        background-color: #dedddd;
+        color: #333;
+        font-family: Arial, sans-serif;
+        font-size: 2rem;
+        border: 1px solid #ccc;
+        width: 100%;
+        padding: 1rem 0;
+        text-align: center;
+        outline: none; /* Remove the outline when focused */
+        cursor: pointer;
+    
+    
+    }
+    
+    #addtask-btn{
+    
+    margin-top: 5rem;
+    }

@@ -1,0 +1,53 @@
+
+
+
+
+.sidebar-container {
+    width: 20rem;
+    height: 100vh;
+    background-color: #1e1e1e; /* Dark background color */
+    position: fixed;
+    
+    left: 0;
+    top: 0;
+    z-index: 999; /* Ensure it's above other elements */
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+/* Add transition for smooth appearance changes */
+.sidebar-container:hover {
+    width: 22rem; /* Expand on hover */
+}
+
+/* Sidebar Header Styles */
+.sidebar-header {
+    
+    padding: 1.5rem;
+    background-color: #1a1a1a; /* Darker background color for header */
+    color: #fff; /* White text color */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #333; /* Border between header and content */
+}
+
+/* Sidebar Content Styles */
+.sidebar-content {
+    padding: 1rem;
+    color: #ccc; /* Light text color */
+}
+
+/* Sidebar Links Styles */
+.sidebar-link {
+    display: block;
+    padding: 0.8rem 1.5rem;
+    color: #ccc; /* Light text color */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.sidebar-link:hover {
+    background-color: #333; /* Darker background color on hover */
+    color: #fff; /* White text color on hover */
+}
